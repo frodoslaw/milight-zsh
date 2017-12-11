@@ -17,9 +17,7 @@ ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[grey]%} ✱"
 function prompt_char {
 	if [ $UID -eq 0 ]; then echo "%{$fg[red]%}#%{$reset_color%}"; else echo $; fi
 }
-# PL_BRANCH_CHAR=$'\ue0a0'
 
-# get the name of the branch we are on
 function vim_bg_info() {
   if [[ "$(command echo $VIM)" != "" ]]; then
     echo " $git_sign"
