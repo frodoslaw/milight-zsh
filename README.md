@@ -1,4 +1,4 @@
 # milight-zsh
-Minimal and light zsh prompt theme
+Minimal and light zsh prompt theme.
 
-![milight](screenshots/milight-zsh.png)
+![milight](screenshots/milight-zsh-theme.png)
